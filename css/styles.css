@@ -62,34 +62,34 @@
 
 /* ======================================================================*/
 /* INICIA Section (card) Index */
-.card-img {
-    width: 200px;
-    border: solid 3px #d9bb96;
-
-}
-
-.sectionVN{
-    min-height: 700px;
-}
-
-.card-imgs{
-    background-color: #d9bb96;
-}
-
-.text-span{
-    color: #229797;
-}
 
 section {
     background-color: #152d35;
     align-items: center;
 }
 
+
+.card-imgs {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d9bb96;
+    border: solid 3px #fff;
+}
+
+.sectionVN{
+    min-height: 800px;
+}
+
+.text-span{
+    color: #229797;
+}
+
 /* FIN Section Index */
 /* ======================================================================*/
 
 /* ======================================================================*/
-/* INICIA mi Footer */
+/* INICIA Footer */
 footer{
     height: 100px;
     background-color: #229797;
