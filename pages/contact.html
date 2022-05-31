@@ -2,10 +2,12 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Portfolio</title>
+    <title>Contact</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -17,10 +19,10 @@
     <link rel="stylesheet" href="../css/styles.css">
 
 </head>
-
 <body>
     
-<!----------------------INICIO navbar menu------------------- -->
+
+    <!----------------------INICIO navbar menu------------------- -->
 <header>
 
     <p class="mb-0 p-7 text-dark fs-6 bg-welcome container-full d-flex justify-content-center"> Welcome </p>
@@ -54,7 +56,7 @@
 
                     <li class="nav-item">
 
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
 
                     </li>
 
@@ -63,7 +65,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -99,137 +101,73 @@
 </header>
 <!---------------------------- FIN menu ----------------------------------------->
 
-<!---------------------------INICIO Projets cards ------------------------------->
-<section class="sectionVN">
+<!-- Main inicio -->
+<main class="bg-dark">
 
-<div class="bg-dark">
+<h1 class="text-center text-white">Contact <span class="text-span"> me </span></h1>
 
-    <h1 class="text-center text-white">My <span class="text-span">Portfolio</span></h1>
+<p class="text-center text-white fs-4"><span class="text-span">Y</span>ou can contact me by message and in my social networks.</p>
 
-    <p class="text-center text-white fs-5">On my website i'll be showing my next works and projets.</p>
-    
-    <p class="text-center text-white fs-5">A process where i'll anclear a lot about web development, HTML, CSS and JS.</p>
-</div>
+</main>
+<!-- Main fin -->
 
-    <div class="container">
 
-        <div class="row">
+<!-- INICIA mi form -->
 
-        <!-- Inicia card1 -->
+<form class="row g-3 fs-4 bg-secondary text-white">
+        <div class="col-md-4">
 
-        <div class="card cardVN col-md-4 col-sm-6 col-xs-1 text-center cards">
-
-            <img src="../img/inprogress.png.png" class="card-img-top" alt="inprogress">
-
-            <div class="card-body">
-
-            <h3 class="card-title">Comming soon</h3>
-
-            <a href="#" class="btn btn-primary">Projet detail</a>
-
-            </div>
-
+        <label for="validationDefault01" class="form-label">First name</label>
+        <input type="text" class="form-control" id="validationDefault01" value="" required>
         </div>
 
-        <!-- Finaliza Card1 -->
-
-        <!-- Inicia card2 -->
-
-        <div class="card cardVN col-md-4 col-sm-6 col-xs-1 text-center">
-
-            <img src="../img/inprogress.png.png" class="card-img-top cards" alt="inprogress">
-
-            <div class="card-body">
-
-            <h3 class="card-title">Comming soon</h3>
-
-            <a href="#" class="btn btn-primary">Projet detail</a>
-
-            </div>
-
+        <div class="col-md-4">
+        <label for="validationDefault02" class="form-label">Last name</label>
+        <input type="text" class="form-control" id="validationDefault02" value="" required>
         </div>
 
-        <!-- Finaliza Card2 -->
-
-        <!-- Inicia card3 -->
-
-        <div class="card cardVN col-md-4 col-sm-6 col-xs-1 text-center">
-
-            <img src="../img/inprogress.png.png" class="card-img-top cards" alt="inprogress">
-
-            <div class="card-body">
-
-            <h3 class="card-title">Comming soon</h3>
-
-            <a href="#" class="btn btn-primary">Project detail</a>
-
-            </div>
-
+        <div class="col-md-4">
+        <label for="validationDefaultUsername" class="form-label">Email</label>
+        <div class="input-group">
+            <span class="input-group-text" id="inputGroupPrepend2">@</span>
+            <input type="text" class="form-control" id="validationDefaultEmail"  aria-describedby="inputGroupPrepend2" required>
+        </div>
         </div>
 
-        <!-- Finaliza Card3 -->
-
-        <!-- Inicia card4 -->
-
-        <div class="card cardVN col-md-4 col-sm-6 col-xs-1 text-center">
-
-            <img src="../img/inprogress.png.png" class="card-img-top cards" alt="inprogress">
-
-            <div class="card-body">
-
-            <h3 class="card-title">Comming soon</h3>
-
-            <a href="#" class="btn btn-primary">Project detail</a>
-
-            </div>
-
+        <div class="col-md-6">
+        <label for="validationDefault03" class="form-label">City</label>
+        <input type="text" class="form-control" id="validationDefault03" required>
         </div>
 
-        <!-- Finaliza Card4 -->
-
-        <!-- Inicia card5 -->
-
-        <div class="card cardVN col-md-4 col-sm-6 col-xs-1 text-center">
-
-            <img src="../img/inprogress.png.png" class="card-img-top cards" alt="inprogress">
-
-            <div class="card-body">
-
-            <h3 class="card-title">Comming soon</h3>
-
-            <a href="#" class="btn btn-primary">Project detail</a>
-
-            </div>
-
+        <div class="col-md-3">
+        <label for="validationDefault04" class="form-label">State</label>
+        <select class="form-select" id="validationDefault04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>...</option>
+        </select>
         </div>
 
-        <!-- Finaliza Card5 -->
-
-        <!-- Inicia card6 -->
-
-        <div class="card cardVN col-md-4 col-sm-6 col-xs-1 text-center">
-
-            <img src="../img/inprogress.png.png" class="card-img-top cards" alt="inprogress">
-
-            <div class="card-body">
-
-            <h3 class="card-title">Comming soon</h3>
-
-            <a href="#" class="btn btn-primary">Project detail</a>
-
-            </div>
-
+        <div class="col-md-3">
+        <label for="validationDefault05" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="validationDefault05" required>
         </div>
 
-        <!-- Finaliza Card6 -->
-
+        <div class="col-12">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+            <label class="form-check-label" for="invalidCheck2">
+            Allow notifications?
+            </label>
+        </div>
         </div>
 
-    </div>
+        <div class="col-12">
+        <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
 
-    </section>
+    </form>
 
-<!-- FIN Section -->
+<!-- FIN de mi form -->
 
 <!----------------------------- INICIO Footer  --------------------------------------------->
 <footer class="col-sm-12 redes d-flex justify-content-around align-items-center">
@@ -260,8 +198,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <!----------------------------- Cd BS ---------------------------------------------------->
-    
+
 
 </body>
-
 </html>

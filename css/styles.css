@@ -106,3 +106,36 @@ footer{
 
 /* FIN Footer */
 /* ======================================================================*/
+
+/* Card aboutme */
+.main-aboutme{
+    background-color: #d9bb96;
+}
+
+.card-aboutme {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px;
+}
+
+/* fin card */
+
+/* Main card Purpose */
+.card-purpose{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainpose{
+    background-color: #d9bb96;
+}
+/* fin Card purpose */
+
+/* FORM CONTACT */
+
+form{
+    min-height: 600px;
+    padding: 13rem;
+}
+
+/* FIN FORM */
